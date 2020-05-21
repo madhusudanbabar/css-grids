@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>form</title>
   </head>
   <body>
@@ -10,15 +11,19 @@
       <form action="">
         <h3>register now</h3>
         <fieldset>
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
+        <div class="form-fields">
           <label for="firstname">First name:</label>
-          <input type="text" name="email" id="email" />
+          <input type="text" name="name" id="name" />
           <label for="lastname">Last Name:</label>
-          <input type="email" name="email" id="email" />
+          <input type="text" name="lastname" id="lastname" />
           <label for="email">Email</label>
           <input type="email" name="email" id="email" />
+          <label for="comment">comment</label>
+          <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+        </div>  
         </fieldset>
+        <button type="button">submit</button>
       </form>
     </div>
   </body>
