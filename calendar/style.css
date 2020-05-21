@@ -1,0 +1,47 @@
+@import "../100vh.css";
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.calendar{
+    background-color: #fff;
+    /* border: gray solid 2px; */
+    border-radius: 10px;
+    border: none;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.month{
+    background: #000;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.date{
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    /* gap: 1px; */
+}
+
+span{
+    padding: 1em;
+    border: #e0e0e0 1px solid;
+}
+
+.active{
+    background-color: tomato;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.disabled{
+    background-color: gainsboro;
+}
