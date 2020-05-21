@@ -1,0 +1,37 @@
+@import "../100vh.css";
+
+body{
+    background-image: linear-gradient(to right, blue, aquablue)!important;
+}
+
+.overlay{
+    display: grid;
+    grid: 1fr / 1fr;
+    place-items: center center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.modal-container{
+    background: #fff;
+    height: max-content;
+    width: 400px;
+    height: 300px;
+}
+
+.modal-content{
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.6rem;
+    margin-top: 1.4rem;
+}

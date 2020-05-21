@@ -1,0 +1,15 @@
+@import "../100vh.css";
+body{
+    background-color: white;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header, footer{
+    font-size: 1.6rem;
+    color: white;
+    background: rgb(110,9,121);
+    background: linear-gradient(308deg, rgba(110,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 1em 0;
+}
